@@ -1,0 +1,14 @@
+[project]
+name = "cao-processor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "azure-ai-documentintelligence>=1.0.2",
+    "docling>=2.53.0",
+    "ipykernel>=6.30.1",
+    "markitdown[pdf]>=0.1.3",
+    "pdfplumber>=0.11.7",
+    "pymupdf>=1.26.4",
+]
