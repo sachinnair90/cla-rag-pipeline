@@ -17,6 +17,7 @@ tmp/
 .env.local
 .env.production
 .env.development
+**/outputs/**
 
 # Python
 __pycache__/

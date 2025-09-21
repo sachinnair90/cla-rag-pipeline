@@ -1,4 +1,3 @@
-
 # CAO Processor
 
 A small toolkit for parsing CAO (Collective Labour Agreement) PDFs and extracting structured information (clauses, articles, dates, salary tables, scopes, and metadata).
@@ -65,3 +64,9 @@ Place additional input PDFs under `data/cao-pdfs/` and keep original filenames t
 - `pyproject.toml` — project metadata and dependency list
 - `src/` — source code and notebooks (add modules here: parser, extractor, cli)
 - `data/` — input PDFs and auxiliary files
+
+## Architecture
+
+Microsoft reference architecture: https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/rag/rag-solution-design-and-evaluation-guide
+
+![Reference Architecture](./docs//images/reference-architecture.png)
